@@ -1,0 +1,4 @@
+avrdude -C avrdude.conf -v -P COM8 -b 19200 -c avrisp -p attiny85  -Uflash:w:t85_default.hex:i -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xfe:m
+
+												
+
